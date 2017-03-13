@@ -1,0 +1,80 @@
+body {
+	background: #298eea;
+	padding: 0;
+	margin: 0;
+	padding: 60px;
+}
+
+body *{
+	box-sizing: border-box;
+}
+
+.logo {
+	display: block;
+	height: 35px;
+	width: auto;
+	margin: 0 auto 30px;
+}
+.sign-up {
+	margin: 0 auto;
+	width: 400px;
+	padding: 40px;
+	background-color: #FFF;
+	border: #FFF;
+	border-radius: 3px;
+	display: block;
+	}
+.signup-form legend {
+	text-align: center;
+	font-weight: 300px;
+	color: #563656;
+	margin: 0 auto 45px;
+	line-height: 38px;
+	letter-spacing: 0;
+}
+input[type='email'],
+input[type='password'],
+button[type='submit'] {
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+}
+
+input[type='email']:focus,
+input[type='password']:focus,
+button[type='submit']:focus 
+{
+    border-color: #E7E7E7;
+    box-shadow: none;
+}
+
+button[type='submit'] {
+    color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+}
+.footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+.footer a:hover { color: #E7F1F9 }
+
+.footer p { margin-bottom: 40px }
